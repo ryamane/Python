@@ -121,7 +121,7 @@ def play(strategy0, strategy1, score0=0, score1=0, dice=six_sided,
     """
     player = 0  # Which player is about to take a turn, 0 (first) or 1 (second)
     # BEGIN PROBLEM 5
-    while score0 < goal and score1 < goal:
+    while score0 < goal and score1 < goal: # this is slightly ugly but whatever
         if player == 0:
             num_rolls = 5 # A default number of rolls
             strat0 = strategy0(score0, score1)
