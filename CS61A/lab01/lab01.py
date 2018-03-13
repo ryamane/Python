@@ -1,3 +1,5 @@
+# Completed lab01
+
 """Lab 1: Expressions and Control Structures"""
 
 # Coding Practice
